@@ -41,7 +41,7 @@ function draw(){
    
     if(frameCount % 70 == 0){
         ran = Math.round(random(1,4));
-        thunder = createSprite(windowWidth-100, 80);
+        thunder = createSprite(random(100,windowWidth-100), 80);
         thunder.scale  = 0.6;
         switch (ran){
             case 1: 
